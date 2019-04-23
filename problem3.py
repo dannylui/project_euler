@@ -49,15 +49,11 @@ def get_max_prime_factor_faster(num):
 
 
 start_time = datetime.now()
-print(get_max_prime_factor(13195))
+# print(get_max_prime_factor(13195))
 print(get_max_prime_factor(600851475143))
 print(f'Done in {(datetime.now()-start_time).total_seconds()}')
 
 start_time = datetime.now()
-print(get_max_prime_factor_faster(13195))
+# print(get_max_prime_factor_faster(13195))
 print(get_max_prime_factor_faster(600851475143))
 print(f'Done in {(datetime.now()-start_time).total_seconds()}')
-
-
-x = [1,3,4]
-sorted

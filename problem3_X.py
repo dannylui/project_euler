@@ -11,7 +11,7 @@ def is_prime(num):
     return True
 
 
-def get_factors2(num):
+def get_factors(num):
     factors = []
     if num % 2 == 0:
         factors.append(2)
@@ -25,11 +25,11 @@ def get_factors2(num):
     for i in sorted(factors, reverse=True):
         if is_prime(i):
             return i
-    return 1
+    return num
 
 
 start_time = datetime.now()
 # number = 13195
 number = 600851475143
-print(get_factors2(number))
+print(get_factors(number))
 print(f'Done in {(datetime.now() - start_time).total_seconds()}')

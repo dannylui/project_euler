@@ -36,4 +36,9 @@ def common_factors(start, end):
     return product
 
 
-print(common_factors(1, 20))
+def main():
+    print(common_factors(1, 20))
+
+
+if __name__ == "__main__":
+    main()

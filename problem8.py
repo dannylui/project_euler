@@ -51,7 +51,6 @@ def get_greatest_product(count):
             greatest_product = product
     return greatest_product
 
-
-print(get_greatest_product(4))
-print(get_greatest_product(13))
-
+if __name__ == '__main__':
+    print(get_greatest_product(4))
+    print(get_greatest_product(13))
